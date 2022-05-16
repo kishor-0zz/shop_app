@@ -1,0 +1,45 @@
+.header {
+   text-align: center;
+   background: #cad8e5;
+   padding: 8px 0;
+}
+
+.header ul li {
+   line-height: normal;
+   display: inline-block;
+}
+
+.header ul li a {
+   color: #000000;
+   text-decoration: none;
+   list-style: none;
+   display: inline-block;
+   padding: 10px;
+   line-height: 100%;
+   cursor: pointer;
+   font-size: 20px;
+   text-transform: capitalize;
+   font-weight: 600;
+   transition: all 0.3s ease;
+}
+
+.header ul {
+   margin: 0;
+}
+
+.header ul li a:hover {
+   color: #b91414;
+}
+
+.header ul li .active {
+   color: #b91414;
+   text-decoration: none;
+   list-style: none;
+   display: inline-block;
+   padding: 10px;
+   line-height: 100%;
+   cursor: pointer;
+   font-size: 20px;
+   text-transform: capitalize;
+   font-weight: 600;
+}
